@@ -11,7 +11,15 @@ console.log(age)
 
 const favouriteDish = 'kotlet z narzekaniem'
 
-console.log(name, age, dish)
+console.log(name, age, favouriteDish)
 
 console.log(`Cześć, jestem ${name} i moim ulubionym daniem jest ${favouriteDish}`)
-g
+
+const myName = 'Alojzy'
+const petName = 'Łajka'
+
+console.log(`Cześć, jestem ${myName}, a to jest ${petName} - mój bąk`)
+
+const petAge = 99
+
+console.log('' + petName + ' ma już ' + petAge + ' lat. ')
