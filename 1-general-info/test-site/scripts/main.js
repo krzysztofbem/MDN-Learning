@@ -12,3 +12,6 @@ console.log(age)
 const favouriteDish = 'kotlet z narzekaniem'
 
 console.log(name, age, dish)
+
+console.log(`Cześć, jestem ${name} i moim ulubionym daniem jest ${favouriteDish}`)
+g
