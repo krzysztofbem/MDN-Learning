@@ -37,3 +37,6 @@ currentCar = 'Audi'
 let firstFemaleName = 'Ania'
 let age2 = 24
 let favColor2 = 'czerwony'
+
+const quote = 'Jegomość powiedział:" kocham ser z żurawiną " '
+console.log(quote)
