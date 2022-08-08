@@ -6,6 +6,35 @@
     <title>MDN RWD articles</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="../test-site/styles/style.css">
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+            font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 1em;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            color: purple;
+        }
+
+        dl {
+            color: gray;
+            margin: 0.5em 0;
+        }
+
+        dt {
+            font-weight: bold;
+            color: purple;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
@@ -111,22 +140,68 @@
 
     <!-- ex.4 abbreviations -->
 
-    <p><abbr title="NASA">NASA,</abbr> National Aeronautics and Space Administration, sure does some exciting work .</p>
+    <!-- <p><abbr title="NASA">NASA,</abbr> National Aeronautics and Space Administration, sure does some exciting work .</p> -->
 
     <!-- ex.5 Marking up contact details -->
-    <address>
+
+
+    <!-- <address>
         <p>
-          Chris Mills<br>
-          Manchester<br>
-          The Grim North<br>
-          UK
+            Chris Mills<br>
+            Manchester<br>
+            The Grim North<br>
+            UK
         </p>
-      
+
         <ul>
-          <li>Tel: 01234 567 890</li>
-          <li>Email: me@grim-north.co.uk</li>
+            <li>Tel: 01234 567 890</li>
+            <li>Email: me@grim-north.co.uk</li>
         </ul>
-      </address>
+    </address>
+
+    <address>
+        Page written by <a href="../authors/chris-mills/">Chris Mills</a>.
+    </address> -->
+
+    <!-- Superscript and subscript -->
+
+    <!-- <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+    <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+    <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+
+    <time datetime="2016-01-20">20 January 2016</time>
+
+     -->
+    <!-- TASK1 -->
+    <!-- <dl>
+        <dt>Llama</dt>
+        <dd>Tall, wooly quadruped, pointy ears. Sometimes rideable, but grumpy and spits a lot. </dd>
+        <dd>Big fan of list items.</dd>
+
+        <dt> Anaconda</dt>
+        <dd> A very large constrictor snake; travels rapidly by way of anchors to sneak up on his prey.</dd>
+        <dt>Hippopotamus</dt>
+        <dd>His description is bottomless.</dd>
+    </dl> -->
+
+    <!-- TASK2 -->
+
+    <h1>Advanced text semantics</h1>
+
+    <p>Let's start with a quote:</p>
+
+    <p>
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility"></blockquote>
+    </p>  <abbr title="Hypertext Markup Language">HTML</abbr>Hypertext Markup Language, is by default accessible, if used correctly.</blockquote>
+    </p>
+
+    <p><abbr title="Cascade Style Sheets">CSS</abbr> Cascading Style Sheets, can also be used to make web pages more, or less, accessible.</p>
+
+    <p>Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H (Ethanol).</p>
+
+    <p><time dateime="25-12-2019">December 25<sup>th</sup> 2019 (Christmas Day)</time> , <time
+            dateime="02-11-2019">November 2<sup>nd</sup> 2019
+            (Día de los Muertos).</time></p>
 
 </body>
 
